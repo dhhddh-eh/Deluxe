@@ -1,0 +1,86 @@
+import '../models/movie.dart';
+
+/// Легальные примеры: public domain и Creative Commons.
+/// Ссылки ведут на страницы источников, а не на пиратские плееры.
+const List<Movie> sampleMovies = [
+  Movie(
+    id: 'big_buck_bunny',
+    title: 'Big Buck Bunny',
+    year: 2008,
+    description: 'Открытый анимационный фильм Blender Foundation.',
+    watchUrl: 'https://peach.blender.org/',
+    sourceLabel: 'Blender Foundation / CC BY 3.0',
+  ),
+  Movie(
+    id: 'sintel',
+    title: 'Sintel',
+    year: 2010,
+    description: 'Короткометражный открытый фильм Blender Foundation.',
+    watchUrl: 'https://durian.blender.org/',
+    sourceLabel: 'Blender Foundation / CC BY 3.0',
+  ),
+  Movie(
+    id: 'tears_of_steel',
+    title: 'Tears of Steel',
+    year: 2012,
+    description: 'Открытый sci-fi фильм Blender Foundation.',
+    watchUrl: 'https://mango.blender.org/',
+    sourceLabel: 'Blender Foundation / CC BY 3.0',
+  ),
+  Movie(
+    id: 'elephants_dream',
+    title: 'Elephants Dream',
+    year: 2006,
+    description: 'Первый открытый фильм Blender Foundation.',
+    watchUrl: 'https://orange.blender.org/',
+    sourceLabel: 'Blender Foundation / CC BY 2.5',
+  ),
+  Movie(
+    id: 'night_of_the_living_dead',
+    title: 'Night of the Living Dead',
+    year: 1968,
+    description: 'Классический хоррор, public domain в США.',
+    watchUrl: 'https://archive.org/details/night_of_the_living_dead',
+    sourceLabel: 'Internet Archive / Public Domain',
+  ),
+  Movie(
+    id: 'plan_9',
+    title: 'Plan 9 from Outer Space',
+    year: 1959,
+    description: 'Культовый sci-fi фильм Ed Wood.',
+    watchUrl: 'https://archive.org/details/Plan_9_from_Outer_Space_1959',
+    sourceLabel: 'Internet Archive / Public Domain',
+  ),
+  Movie(
+    id: 'nosferatu',
+    title: 'Nosferatu',
+    year: 1922,
+    description: 'Немецкий экспрессионистский хоррор.',
+    watchUrl: 'https://archive.org/details/nosferatu',
+    sourceLabel: 'Internet Archive / Public Domain',
+  ),
+  Movie(
+    id: 'his_girl_friday',
+    title: 'His Girl Friday',
+    year: 1940,
+    description: 'Классическая комедия с Cary Grant.',
+    watchUrl: 'https://archive.org/details/his_girl_friday',
+    sourceLabel: 'Internet Archive / Public Domain',
+  ),
+  Movie(
+    id: 'charade',
+    title: 'Charade',
+    year: 1963,
+    description: 'Романтический триллер с Audrey Hepburn.',
+    watchUrl: 'https://archive.org/details/charade',
+    sourceLabel: 'Internet Archive / Public Domain',
+  ),
+  Movie(
+    id: 'the_general',
+    title: 'The General',
+    year: 1926,
+    description: 'Немая комедия Buster Keaton.',
+    watchUrl: 'https://archive.org/details/TheGeneral_201405',
+    sourceLabel: 'Internet Archive / Public Domain',
+  ),
+];
