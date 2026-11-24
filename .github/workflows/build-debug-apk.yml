@@ -25,7 +25,6 @@ jobs:
           gradle-version: 8.2
 
       - name: Build APK
-        working-directory: android
         env:
           ANDROID_HOME: /usr/local/lib/android/sdk
           ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
