@@ -1,7 +1,5 @@
 import '../models/movie.dart';
 
-/// Легальные примеры: public domain и Creative Commons.
-/// Ссылки ведут на страницы источников, а не на пиратские плееры.
 const List<Movie> sampleMovies = [
   Movie(
     id: 'big_buck_bunny',
@@ -9,6 +7,8 @@ const List<Movie> sampleMovies = [
     year: 2008,
     description: 'Открытый анимационный фильм Blender Foundation.',
     watchUrl: 'https://peach.blender.org/',
+    videoUrl:
+        'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     sourceLabel: 'Blender Foundation / CC BY 3.0',
   ),
   Movie(
@@ -17,6 +17,8 @@ const List<Movie> sampleMovies = [
     year: 2010,
     description: 'Короткометражный открытый фильм Blender Foundation.',
     watchUrl: 'https://durian.blender.org/',
+    videoUrl:
+        'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
     sourceLabel: 'Blender Foundation / CC BY 3.0',
   ),
   Movie(
@@ -25,6 +27,8 @@ const List<Movie> sampleMovies = [
     year: 2012,
     description: 'Открытый sci-fi фильм Blender Foundation.',
     watchUrl: 'https://mango.blender.org/',
+    videoUrl:
+        'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
     sourceLabel: 'Blender Foundation / CC BY 3.0',
   ),
   Movie(
@@ -33,6 +37,8 @@ const List<Movie> sampleMovies = [
     year: 2006,
     description: 'Первый открытый фильм Blender Foundation.',
     watchUrl: 'https://orange.blender.org/',
+    videoUrl:
+        'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
     sourceLabel: 'Blender Foundation / CC BY 2.5',
   ),
   Movie(
@@ -41,14 +47,8 @@ const List<Movie> sampleMovies = [
     year: 1968,
     description: 'Классический хоррор, public domain в США.',
     watchUrl: 'https://archive.org/details/night_of_the_living_dead',
-    sourceLabel: 'Internet Archive / Public Domain',
-  ),
-  Movie(
-    id: 'plan_9',
-    title: 'Plan 9 from Outer Space',
-    year: 1959,
-    description: 'Культовый sci-fi фильм Ed Wood.',
-    watchUrl: 'https://archive.org/details/Plan_9_from_Outer_Space_1959',
+    videoUrl:
+        'https://archive.org/download/night_of_the_living_dead/format=512Kb%20MPEG4',
     sourceLabel: 'Internet Archive / Public Domain',
   ),
   Movie(
@@ -57,6 +57,17 @@ const List<Movie> sampleMovies = [
     year: 1922,
     description: 'Немецкий экспрессионистский хоррор.',
     watchUrl: 'https://archive.org/details/nosferatu',
+    videoUrl: 'https://archive.org/download/nosferatu/format=512Kb%20MPEG4',
+    sourceLabel: 'Internet Archive / Public Domain',
+  ),
+  Movie(
+    id: 'plan_9',
+    title: 'Plan 9 from Outer Space',
+    year: 1959,
+    description: 'Культовый sci-fi фильм Ed Wood.',
+    watchUrl: 'https://archive.org/details/Plan_9_from_Outer_Space_1959',
+    videoUrl:
+        'https://archive.org/download/Plan_9_from_Outer_Space_1959/format=512Kb%20MPEG4',
     sourceLabel: 'Internet Archive / Public Domain',
   ),
   Movie(
@@ -65,6 +76,7 @@ const List<Movie> sampleMovies = [
     year: 1940,
     description: 'Классическая комедия с Cary Grant.',
     watchUrl: 'https://archive.org/details/his_girl_friday',
+    videoUrl: 'https://archive.org/download/his_girl_friday/format=512Kb%20MPEG4',
     sourceLabel: 'Internet Archive / Public Domain',
   ),
   Movie(
@@ -73,6 +85,7 @@ const List<Movie> sampleMovies = [
     year: 1963,
     description: 'Романтический триллер с Audrey Hepburn.',
     watchUrl: 'https://archive.org/details/charade',
+    videoUrl: 'https://archive.org/download/charade/format=512Kb%20MPEG4',
     sourceLabel: 'Internet Archive / Public Domain',
   ),
   Movie(
@@ -81,6 +94,8 @@ const List<Movie> sampleMovies = [
     year: 1926,
     description: 'Немая комедия Buster Keaton.',
     watchUrl: 'https://archive.org/details/TheGeneral_201405',
+    videoUrl:
+        'https://archive.org/download/TheGeneral_201405/format=512Kb%20MPEG4',
     sourceLabel: 'Internet Archive / Public Domain',
   ),
 ];
